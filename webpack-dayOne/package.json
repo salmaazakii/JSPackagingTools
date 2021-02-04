@@ -1,0 +1,33 @@
+{
+  "name": "webpack-dayone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "css-loader": "^5.0.1",
+    "image-minimizer-webpack-plugin": "^2.2.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^8.0.0",
+    "html-loader": "^1.3.2",
+    "sass": "^1.32.6",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "webpack-cli": "^4.5.0",
+    "webpack": "^5.20.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.0.0"
+  },
+  "scripts": {
+    "start": "webpack serve",
+    "build": "set NODE_ENV='production' && webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
